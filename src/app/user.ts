@@ -1,7 +1,7 @@
 export class User {
     id : number | undefined;
     login:string | undefined;
-    userName:string | undefined;
+    user_name:string | undefined;
     pwd:string | undefined;
     constructor(){}
     
