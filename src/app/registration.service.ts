@@ -14,7 +14,7 @@ export class RegistrationService {
   }
 
   public registerUserFromRemote(user:User):Observable<any>{
-    return this._http.post<any>("http://localhost:8088/registeruser",user)
+    return this._http.post<any>("http://localhost:8088/registeruser",user);
   }
 
 
